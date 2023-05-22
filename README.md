@@ -1,84 +1,118 @@
-# React JS Resume Website Template
+Amer Lotfi Orimi
+======
 
-![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
+#### Frontend Engineer with a strong background in math, science and programming.
+###### [ [amerllica.ir](https://amerllica.ir) ] . [ amerllica@gmail.com ] . [ +989202016078 ]
 
-<div align="center">
 
-<img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/tbakerx/react-resume-template?include_prereleases">
+Summary
+--------
+I'm a passionate front-end engineer. I'm experienced in JavaScript, Web/App UI Development, HTML/CSS, ReactJS and React Native. My fields of interest include front-end development, building projects from scratch, maintaining legacy projects, migrating the architecture from legacy to new ones, and UI/UX design. I'm so eager about new technologies and readily accept new challenges. I'd love to write blog posts and articles and answer Stack Overflow questions in my spare time—also a big fan of using TypeScript in front-end projects.
 
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/tbakerx/react-resume-template?style=flat">
 
-<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/tbakerx/react-resume-template?style=flat&color=success">
+Education
+---------
+**M.D. in Knowledge Engineering and Decision Science, Kharazmi University** (2010-2013)
 
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tbakerx/react-resume-template?style=flat&color=yellow">
+- Most of the topics were about artificial intelligence and analyzing massive data for making better decisions.
+- Coursework in physics, engineering, and statistics.
 
-<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/tbakerx/react-resume-template/react?style=flat">
+**B.D. in Applied Mathematics, Damghan University** (2004-2009)
 
-<img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/tbakerx?style=flat&color=blueviolet">
+- Applied mathematics, I love it, and I miss it. Applied Mathematics makes me strong in analyzing and meticulous in problem-solving.
 
-## React based template for software developer-focused resume websites
 
-</div>
+Experience
+---------
 
-### View a [live demo here.](https://reactresume.com)
+**TRIBES _(remote)_**
 
-#### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project
+- **Freelance Frontend Engineer** (06/2022, Present)
+    - Tribes is a company, it is like an umbrella, it has its own projects but it is working alongside many companies. Other companies request help from Tribes and Tribes send the developers like agents there to work with them and build the products.
 
-### 🎉 Version 2 is here! New features:
-1. Completely rebuilt with React and full typescript support
-2. Built on the [Next.js](https://nextjs.org/) framework for easy server side rendering/static generation, image optimization, api routes, and deployment
-3. Styled entirely with [TailwindCss](https://tailwindcss.com/)
-4. Re-organized data population file for customizing site.
-5. Significant improvement/modernization of all site sections
- 
-**Looking for the old version? You can find it [here.](https://github.com/tbakerx/react-resume-template/releases/tag/v1.0.0)**
+- **React Native Developer at Dubit (contract base)** (06/2022, 03/2023)
+    - I have designed an architecture for their application. The application was about playing podcasts for kids. The application has several actions and also a specific module for painting. I used RNTP for playing songs and React Native Skia for implementing the painting module. The painting module was one of the tough parts that I awesomely I have done it. I wrote an article on Medium about my experiences with the painting module.
+    - App Links:
+      - [iOS](https://apps.apple.com/gb/app/kidspod/id6443950930)
+      - [Android](https://play.google.com/store/apps/details?id=com.kidspod&pli=1)
 
-## Description
+**Information Technologies & Transformation _(remote)_**
 
-This is a React based personal resume website template. Built with typescript on the Next.js framework, styled with Tailwind css, and populated with data from a single file, you can easily create, customize and host your own personal website in minutes. Even better, the site is fully mobile-optimized and server-side rendered to ensure fast loading and a clean UI on any device. Read on to learn how to make it your own.
+- **Frontend and Business Consultant** (06/2022, Present)
+    - After working two years on the Lobox social network, I'm still waiting for its success, so I can't spend time anymore on it but still, for consulting, I'm open to IT&T to help them.
 
-## Make it Your Own!
+- **Frontend Engineer** (07/2021, 06/2022)
+    - After 8 months of leading the Frontend team, I decided to transfer the leadership to a better teammate who was better and fitter in this situation. 
 
-### 1. Make sure you have what you need
+- **Team Lead Frontend Development** (12/2020, 07/2021)
+    - We are reinventing Social Networks, it is our motto, actually, we are creating a competitor of LinkedIn.
+      At the first of my entrance, I made up the team, brought the good Frontend and Backend developers and then create a very robust structure for the project.
+      I brought ReactJs with SSR, still, we are developing the features and the team is up now. features and the team is up now.
+- Links:
+  - [production](https://lobox.com)
+  - [development](https://dev.lobox.com)
 
-To build this website, you will need to have the latest stable versions of Node and Yarn downloaded and installed on your machine. If you don't already have them, you can get Node [here,](https://nodejs.org/en/download/) and Yarn [here.](https://yarnpkg.com/getting-started/install)
 
-### 2. Fork and download this repo (and star if you like!)
+**Frontend Developer at _Sibche_** (05/2020, 12/2020)
 
-Next, find the `Fork` button in the top right of this page. This will allow you to make your own copy, for more info on forking repo's see [here.](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) After this, download to your development machine using the green `Code` button at the top of the repo page.
+- Actually, Sibche is an iOS store market, and I was responsible for the main app of this store, the main technology was React Native. I was developing the main app and other companies' apps based on React Native. For the whole of the project, I used TypeScript, Test, and the latest technologies.
 
-### 3. Install dependencies and run
+**Frontend Engineer at _Sheypoor_** (05/2018, 05/2020)
 
-Once you have your own copy of this repo forked and downloaded, open the folder in your favorite terminal and run `yarn install` to install dependencies. Following this, run `yarn dev` to run the project. In your terminal you should be given the url of the running instance (usually http://localhost:3000 unless you have something else running).
+- Sheypoor is one of the classified websites in Iran. Its work area is very professional and I practiced a lot of things like pair programming and planning methods for large-scale projects there. Also, I worked deeply on React-Native. I had previous knowledge of React-Native from before and have built a small application. However, at Sheypoor I experienced it from scratch and worked it very deeply. My work experiences also include:
 
-### 4. Customize the data to make it your own
+    - Design ReactJS/ReactNative UI Elements, Navigation, Composite Components, etc.
+    - Pair Programming and Pair Reviewing Front-end Codes (Web/App)
+    - Prepare Android/iOS Build Scripts for React Native
+    - Configure Webpack, ESLint, etc.
 
-All of the data for the site is driven via a file at `/src/data/data.tsx`. This is where you'll find the existing content, and updating the values here will be reflected on the site. If you have the site running as described above, you should see these changes reflected on save. The data types for all of these items are given in the same folder in the `dataDef.ts` file. Example images can be found at `src/images/` and are imported in the data file. To change, simply update these images using the same name and location, or add new images and update the imports. 
+**Frontend Developer at _Scann Pay_** (12/2017, 05/2018)
 
-### 5. Hook up contact form
-Due to the variety of options available for contact form providers, I've hooked up the contact form only so far as handling inputs and state. Form submission and the actual sending of the email is open to your own implementation. My personal recommendation for email provider is [Sendgrid.](https://sendgrid.com/)
+- Scann was a Fintech startup, I was encouraged to work there because their stack had to be written from scratch. So I decided to work with them to create a big challenge for myself.
 
-### 6. Make any other changes you like
+    - Design and Develop 3 Large-scale Apps 
+    - Implement Redux and Redux Thunk 
+    - Implement a Boilerplate for React Apps 
+    - Node.js and ReactJS
 
-Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling/data changes, feel free!
+**Frontend Web Developer at _Digikala_** (11/2016, 12/2017)
 
-### 7. Deploy to Vercel and enjoy your new Resume Website
+- My primary duty in Digikala was to develop Web UI. I had to make Digikala better in UX and improve its conversion rate, including:
 
-Deploying your new site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your new personal resume website! Congratulations!
+    - Improved the UX of the mobile app and fix the serious bug that nobody was able to track since. The conversion rate of the Firefox mobile app was zero because of the poor JavaScript codebase. I fixed it and it also solved its other issues.
 
-## Project Created & Maintained By
+    - We refactored the search page. We implemented it as a single-page React application. However, it vanished after Digikala's big-bang update.
 
-### Tim Baker
+    - I was involved in the Partial Shipment project which was so valuable for the managers.
 
-<a href="https://twitter.com/timbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a><a href="https://instagram.com/tbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
+    - I got moved to Digikala Mag and comprehensively refactored it. We separated the Desktop and mobile apps.
 
-[![GitHub followers](https://img.shields.io/github/followers/tbakerx.svg?style=social&label=Follow)](https://github.com/tbakerx/)
+- I practised a lot of technologies and patterns, such as HTML5, Razor, CSS3, adaptive design, responsive design, flexbox, SVG animations SMIL, Neat, Bourbon, BEM, Less, SCSS, PostCSS, JavaScript(ES6), React, Redux, Babel, Gulp, Webpack, and etc.
+- Links:
+    - [Digikala](https://digikala.com)
+    - [Digikala Mag](https://digikala.com/mag)
 
-## Stargazers
+**Technical Support Specialist and UI Developer at _Douran_** (10/2010, 11/2016)
 
-[![Stargazers repo roster for @tbakerx/react-resume-template](https://reporoster.com/stars/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/stargazers)
+- Douran had a CMS that sold to many companies and government offices, every customer was a separate task, the most important job was designing a wireframe, and the customer wanted the website looks like it. Then fix it to have a better UX and then assign it to a UI designer, after the design I present it to the customer and got the authorization and start to develop it into an HTML/CSS/JS package. for Responsively I was using Bootstrap and UI Kit, absolutely I read about Less and SCSS and developed my tasks with CSS preprocessors and JavaScript Library like jQuery. after 6 years I saw there weren't any new challenges for me and I wanted to grow up my knowledge and salary. so I decide to leave Douran and join to Digikala.
 
-## Forkers
+Skills
+------
+**Programming:** Web Development, Front-end Development, Application Development, Team Management
 
-[![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
+**Languages:** JavaScript, TypeScript, Ecmascript6+, HTML, CSS
 
+**Tools:** Git, TurboRepo, TurboPack, ReactJs, React Native, React Native Web, SCSS/Sass, Webpack, Docker, TailwindCss
+
+Languages
+------
+- **Persian** _(native)_
+- **English** _(fluent)_
+- **Turkish** _(basic)_
+- **German** _(basic)_
+
+Projects
+--------
+**[*Evening Sessions: Explorations in Data Science and Python* Blog](http://sdsawtelle.github.io/blog/output/index.html)** (2015-present)
+
+- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.  
