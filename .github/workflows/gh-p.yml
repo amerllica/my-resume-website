@@ -20,9 +20,11 @@ jobs:
 
       - name: Build
         run: |
-          npm ci
-          npm run build
-          npm run export
+          yarn install
+          yarn clean
+          yarn build
+          yarn sitemap
+          yarn export
           touch out/.nojekyll
 
       - name: Deploy
