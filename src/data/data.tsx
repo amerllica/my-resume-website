@@ -9,12 +9,12 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+// import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+/*import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
@@ -24,9 +24,9 @@ import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';*/
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/recommendation.webp';
 import {
   About,
   ContactSection,
@@ -59,7 +59,7 @@ export const SectionId = {
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  Testimonials: 'testimonials',
+  Recommendations: 'recommendations',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -71,7 +71,7 @@ export const heroData: Hero = {
   imageSrc: heroImage,
   name: `I'm Amer Lotfi Orimi`,
   description: (
-    <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg text-justify">
+    <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
       I'm a passionate <strong className="text-stone-100">Frontend Engineer</strong>.
       I'm experienced in JavaScript, Web/App UI Development, HTML/CSS, ReactJS and React Native.
     </p>
@@ -291,25 +291,34 @@ export const experience: TimelineItem[] = [
 ];
 
 /**
- * Testimonial section
+ * Recommendation section
  */
-export const testimonial: TestimonialSection = {
+export const recommendation: TestimonialSection = {
   imageSrc: testimonialImage,
-  testimonials: [
+  recommendations: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'William Rose',
+      text: 'Amer is a committed, hard working, and talented developer front-end engineer. He takes the time explain his methodology to those who are unfamiliar with his field and is receptive to feedback. He\'s a friendly person, a pleasure to work alongside, and more than pulls his weight as part of a team.',
+      image: 'https://media.licdn.com/dms/image/D4E03AQFO_FWd9LCDhA/profile-displayphoto-shrink_200_200/0/1675187477985?e=1692230400&v=beta&t=hH74orlbS4pJ6qRFwNiLXWo8QsqulBuOmUH7g84w0uY',
+      link: 'https://www.linkedin.com/in/williamrose944/'
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Matthew Bell',
+      text: 'I worked alongside Amer on a recent app project. It was Amer\'s responsibility to develop my UI designs into a functional product, which he did to a very high standard. Amer is highly skilled, knowledgeable, and passionate about what he does. He\'s always willing to help and takes the time to listen, learn, and also share his knowledge with others. I enjoyed working with Amer and I\'m happy to recommend him to others.',
+      image: 'https://media.licdn.com/dms/image/C4D03AQGhzWwp9xHmPA/profile-displayphoto-shrink_200_200/0/1650304098163?e=1692230400&v=beta&t=0Odg_eAgD6zMb7d70Z4VgRo2N5td7rnt0X2p-K1aYfU',
+      link: 'https://www.linkedin.com/in/m-d-bell/'
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Can Ertaş',
+      text: 'I have worked with many developers in my career. Amer was one of the best amongst them. His motto is “Everything is possible!” This explains a lot about his approach to the problems that we have faced. Amer was always a great asset to our team. Working with him in the same team was giving me the confidence that we can achieve the goals and do anything that the project needed. We weren’t only trying to solve the problems we have currently but what we possibly have in the future. I feel lucky to work with him and highly recommend him as a lead FE developer if you need one. ',
+      image: 'https://media.licdn.com/dms/image/C4D03AQETorQcLRmPbg/profile-displayphoto-shrink_200_200/0/1638732144900?e=1692230400&v=beta&t=fxNPOM0Rmtpz1PQY2aab-L8f3O2Hkd0bpoqLqTb5rYs',
+      link: 'https://www.linkedin.com/in/ertascan/'
+    },
+    {
+      name: 'Lucy Paine',
+      text: 'I worked with Amer on a project for a period of months, Amer was a delight to work with. He has a can do, positive attitude, he’s very knowledgeable, and his communication skills are excellent. I would highly recommend Amer, his super positive attitude to life will bring light into any work place or team.',
+      image: 'https://media.licdn.com/dms/image/D4E03AQHpTBwB4lnIjQ/profile-displayphoto-shrink_200_200/0/1680114749563?e=1692230400&v=beta&t=k3QkTR-KhsI-apUZ0Gwe-EoEP5SkLKXNwTyXOQUwnwU',
+      link: 'https://www.linkedin.com/in/lucy-paine-b2bb9b50/'
     },
   ],
 };
