@@ -71,22 +71,14 @@ export const heroData: Hero = {
   imageSrc: heroImage,
   name: `I'm Amer Lotfi Orimi`,
   description: (
-    <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a mathematics based <strong className="text-stone-100">Frontend Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
-      </p>
-    </>
+    <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg text-justify">
+      I'm a passionate <strong className="text-stone-100">Frontend Engineer</strong>.
+      I'm experienced in JavaScript, Web/App UI Development, HTML/CSS, ReactJS and React Native.
+    </p>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/Amer_Lotfi_Orimi_-_May_2023.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -104,16 +96,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `My fields of interest include Frontend development, building projects from scratch, maintaining legacy projects, migrating the architecture from legacy to new ones, and UI/UX design.
+      I'm so eager about new technologies and readily accept new challenges.
+      I'd love to write blog posts and articles and answer Stack Overflow questions in my spare time—also a big fan of using TypeScript in Frontend projects.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Balgat Mh. Sayıştay 06520 Çankaya Ankara', Icon: MapIcon},
+    {label: 'Age', text: '37', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Iranian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Web/App development, Product consultant', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Economic Science', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Freelance, Instant Domains, inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -125,21 +117,25 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Persian',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'English',
+        level: 7,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'Turkish',
+        level: 2,
+      },
+      {
+        name: 'German',
+        level: 1,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Web development',
     skills: [
       {
         name: 'React',
@@ -151,7 +147,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'GraphQL',
-        level: 6,
+        level: 8,
       },
     ],
   },
@@ -160,15 +156,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
         level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
       },
     ],
   },
@@ -181,11 +169,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
+        level: 2,
       },
     ],
   },
@@ -194,7 +178,7 @@ export const skills: SkillGroup[] = [
 /**
  * Portfolio section
  */
-export const portfolioItems: PortfolioItem[] = [
+export const portfolioItems: PortfolioItem[] = []; /*[
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
@@ -261,7 +245,7 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://timbaker.me',
     image: porfolioImage11,
   },
-];
+];*/
 
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
@@ -340,23 +324,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'amerllica@gmail.com',
+      href: 'mailto:amerllica@gmail.com',
     },
-    {
+    /*{
       type: ContactType.Location,
       text: 'Victoria BC, Canada',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
+    },*/
+    /*{
       type: ContactType.Instagram,
       text: '@tbakerx',
       href: 'https://www.instagram.com/tbakerx/',
-    },
+    },*/
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'amerllica',
+      href: 'https://github.com/amerllica',
     },
   ],
 };
@@ -365,9 +349,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/amerllica'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/6877799/amerllica'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/amerllica/'},
+  // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/amerllica'},
 ];
