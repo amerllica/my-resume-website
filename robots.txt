@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://amerllica.ir
+
+# Sitemaps
+Sitemap: https://amerllica.ir/sitemap.xml
