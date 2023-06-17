@@ -78,7 +78,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Amer_Lotfi_Orimi_-_May_2023.pdf',
+      href: '/assets/Amer_Lotfi_Orimi_-_June_2023.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
