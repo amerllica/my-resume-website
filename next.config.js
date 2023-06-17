@@ -32,7 +32,7 @@ const nextConfig = {
     unoptimized: true,
   },
   assetPrefix: '',
-  basePath: '/',
+  basePath: '',
 };
 
 module.exports = nextConfig;
