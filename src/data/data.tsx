@@ -13,6 +13,8 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
+import FacebookIcon from '../components/Icon/FacebookIcon';
+
 import heroImage from '../images/header-background.webp';
 /*import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -329,12 +331,17 @@ export const recommendation: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: "I'm here to help you with any questions you might have about my work.",
   items: [
     {
       type: ContactType.Email,
       text: 'amerllica@gmail.com',
       href: 'mailto:amerllica@gmail.com',
+    },
+    {
+      type: ContactType.Phone,
+      text: '+447496052859',
+      href: 'tel:+447496052859',
     },
     /*{
       type: ContactType.Location,
@@ -348,8 +355,23 @@ export const contact: ContactSection = {
     },*/
     {
       type: ContactType.Github,
-      text: 'amerllica',
+      text: 'gh/amerllica',
       href: 'https://github.com/amerllica',
+    },
+    {
+      type: ContactType.LinkedIn,
+      text: 'in/amerllica',
+      href: 'https://linkedin.com/in/amerllica',
+    },
+    {
+      type: ContactType.Facebook,
+      text: 'fb/amerllica',
+      href: 'https://fb.com/amerllica',
+    },
+    {
+      type: ContactType.Twitter,
+      text: '@amerllica',
+      href: 'https://twitter.com/amerllica',
     },
   ],
 };
@@ -362,5 +384,6 @@ export const socialLinks: Social[] = [
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/6877799/amerllica'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/amerllica/'},
   // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  {label: 'Facebook', Icon: FacebookIcon, href: 'https://fb.com/amerllica'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/amerllica'},
 ];
