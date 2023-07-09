@@ -49,3 +49,20 @@ th {
 th {
   font-weight: 600;
 }
+
+.work {
+  ul {
+    margin-inline-start: 1rem;
+    list-style-type: disc;
+
+    ul {
+      list-style-type: circle;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: underline;
+      font-size: 0.85rem;
+    }
+  }
+}

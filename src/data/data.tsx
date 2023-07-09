@@ -253,40 +253,180 @@ export const portfolioItems: PortfolioItem[] = []; /*[
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2010-2013',
+    location: 'Kharazmi University of Tehran',
+    title: 'M.D. in Knowledge Engineering and Decision Science',
+    content: <p><ul>
+        <li>Most of the topics were about artificial intelligence and analyzing massive data for making better decisions.</li>
+        <li>Coursework in physics, engineering, and statistics.</li>
+      </ul></p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2004-2009',
+    location: 'Damghan University',
+    title: 'B.D. in Applied Mathematics',
+    content: <p><ul>
+        <li>Applied mathematics, I love it, and I miss it. Applied Mathematics makes me strong in analyzing and meticulous in problem-solving.</li>
+      </ul></p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Jun 2022 - Apr 2023',
+    location: 'London - England',
+    title: 'TRIBES (remote)',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+        <p>
+          <ul>
+            <li>
+              <p><strong>Freelance Frontend Engineer</strong> (06/2022, Present)</p>
+              <ul>
+                <li>Tribes is a company, it is like an umbrella, it has its own projects but it is working alongside many companies. Other companies request help from Tribes and Tribes send the developers like agents there to work with them and build the products.</li>
+              </ul>
+            </li>
+            <li>
+              <p><strong>React Native Developer at Dubit (contract base)</strong> (06/2022, 03/2023)</p>
+              <ul>
+                <li>I have designed an architecture for their application. The application was about playing podcasts for kids. The application has several actions and also a specific module for painting. I used RNTP for playing songs and React Native Skia for implementing the painting module. The painting module was one of the tough parts that I awesomely I have done it. I wrote an article on Medium about my experiences with the painting module.</li>
+                <li>App Links:
+                  <ul>
+                    <li><a href="https://apps.apple.com/gb/app/kidspod/id6443950930" rel="nofollow">iOS</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.kidspod&amp;pli=1" rel="nofollow">Android</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Dec 2020 - Jun 2022',
+    location: 'San Fransisco - US',
+    title: 'Information Technologies & Transformation (remote)',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+        <p>
+          <ul>
+            <li>
+              <p><strong>Frontend and Business Consultant</strong> (06/2022, Present)</p>
+              <ul>
+                <li>After working two years on the Lobox social network, I'm still waiting for its success, so I can't spend time anymore on it but still, for consulting, I'm open to IT&amp;T to help them.</li>
+              </ul>
+            </li>
+            <li>
+              <p><strong>Frontend Engineer</strong> (07/2021, 06/2022)</p>
+              <ul>
+                <li>After 8 months of leading the Frontend team, I decided to transfer the leadership to a better teammate who was better and fitter in this situation.</li>
+              </ul>
+            </li>
+            <li>
+              <p><strong>Team Lead Frontend Development</strong> (12/2020, 07/2021)</p>
+              <ul>
+                <li>We are reinventing Social Networks, it is our motto, actually, we are creating a competitor of LinkedIn.
+                  At the first of my entrance, I made up the team, brought the good Frontend and Backend developers and then create a very robust structure for the project.
+                  I brought ReactJs with SSR, still, we are developing the features and the team is up now. features and the team is up now.</li>
+              </ul>
+            </li>
+            <li>
+              <p>Links:</p>
+              <ul>
+                <li><a href="https://lobox.com" rel="nofollow">production</a></li>
+                <li><a href="https://dev.lobox.com" rel="nofollow">development</a></li>
+              </ul>
+            </li>
+          </ul>
+        </p>
+    ),
+  },
+  {
+    date: 'May 2020 - Dec 2020',
+    location: 'Tehran - Iran',
+    title: 'Frontend Developer at Sibche',
+    content: (
+        <p>
+          <ul>
+            <li>Actually, Sibche is an iOS store market, and I was responsible for the main app of this store, the main technology was React Native. I was developing the main app and other companies' apps based on React Native. For the whole of the project, I used TypeScript, Test, and the latest technologies.</li>
+          </ul>
+        </p>
+    ),
+  },
+  {
+    date: 'May 2018 - May 2020',
+    location: 'Tehran - Iran',
+    title: 'Frontend Engineer at Sheypoor',
+    content: (
+        <p>
+          <ul>
+            <li>
+              <p>Sheypoor is one of the classified websites in Iran. Its work area is very professional and I practiced a lot of things like pair programming and planning methods for large-scale projects there. Also, I worked deeply on React-Native. I had previous knowledge of React-Native from before and have built a small application. However, at Sheypoor I experienced it from scratch and worked it very deeply. My work experiences also include:</p>
+              <ul>
+                <li>Design ReactJS/ReactNative UI Elements, Navigation, Composite Components, etc.</li>
+                <li>Pair Programming and Pair Reviewing Front-end Codes (Web/App)</li>
+                <li>Prepare Android/iOS Build Scripts for React Native</li>
+                <li>Configure Webpack, ESLint, etc.</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
+    ),
+  },
+  {
+    date: 'Dec 2017 - May 2018',
+    location: 'Tehran - Iran',
+    title: 'Frontend Developer at Scann Pay',
+    content: (
+        <p>
+          <ul>
+            <li>
+              <p>Scann was a Fintech startup, I was encouraged to work there because their stack had to be written from scratch. So I decided to work with them to create a big challenge for myself.</p>
+              <ul>
+                <li>Design and Develop 3 Large-scale Apps</li>
+                <li>Implement Redux and Redux Thunk</li>
+                <li>Implement a Boilerplate for React Apps</li>
+                <li>Node.js and ReactJS</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
+    ),
+  },
+  {
+    date: 'Nov 2016 - Dec 2017',
+    location: 'Tehran - Iran',
+    title: 'Frontend Web Developer at Digikala',
+    content: (
+        <p>
+          <ul>
+            <li>
+              <p>My primary duty in Digikala was to develop Web UI. I had to make Digikala better in UX and improve its conversion rate, including:</p>
+              <ul>
+                <li>
+                  <p>Improved the UX of the mobile app and fix the serious bug that nobody was able to track since. The conversion rate of the Firefox mobile app was zero because of the poor JavaScript codebase. I fixed it and it also solved its other issues.</p>
+                </li>
+                <li>
+                  <p>We refactored the search page. We implemented it as a single-page React application. However, it vanished after Digikala's big-bang update.</p>
+                </li>
+                <li>
+                  <p>I was involved in the Partial Shipment project which was so valuable for the managers.</p>
+                </li>
+                <li>
+                  <p>I got moved to Digikala Mag and comprehensively refactored it. We separated the Desktop and mobile apps.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>I practised a lot of technologies and patterns, such as HTML5, Razor, CSS3, adaptive design, responsive design, flexbox, SVG animations SMIL, Neat, Bourbon, BEM, Less, SCSS, PostCSS, JavaScript(ES6), React, Redux, Babel, Gulp, Webpack, and etc.</p>
+            </li>
+            <li>
+              <p>Links:</p>
+              <ul>
+                <li><a href="https://digikala.com" rel="nofollow">Digikala</a></li>
+                <li><a href="https://digikala.com/mag" rel="nofollow">Digikala Mag</a></li>
+              </ul>
+            </li>
+          </ul>
+        </p>
     ),
   },
 ];
