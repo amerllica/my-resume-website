@@ -458,7 +458,7 @@ export const recommendation: TestimonialSection = {
     {
       name: 'Lucy Paine',
       text: 'I worked with Amer on a project for a period of months, Amer was a delight to work with. He has a can do, positive attitude, he’s very knowledgeable, and his communication skills are excellent. I would highly recommend Amer, his super positive attitude to life will bring light into any work place or team.',
-      image: 'https://media.licdn.com/dms/image/D4E03AQHpTBwB4lnIjQ/profile-displayphoto-shrink_200_200/0/1680114749563?e=1692230400&v=beta&t=k3QkTR-KhsI-apUZ0Gwe-EoEP5SkLKXNwTyXOQUwnwU',
+      image: 'https://media.licdn.com/dms/image/D4E03AQHMpycBt14TyQ/profile-displayphoto-shrink_800_800/0/1690382466066?e=1695859200&v=beta&t=N49W21TdYb_rXoaTM2B3o9gCQCzWbxQ79hKNKGcMTEw',
       link: 'https://www.linkedin.com/in/lucy-paine-b2bb9b50/'
     },
   ],
