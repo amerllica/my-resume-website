@@ -37,7 +37,7 @@ export const heroBg = () => {
   const main = () => {
     const canvas = document.getElementById(SectionId.HeroBg) as HTMLCanvasElement;
     const renderer = new THREE.WebGLRenderer({canvas});
-    renderer.setClearColor(new THREE.Color('rgba(28,22,36,0.15)'));
+    renderer.setClearColor(new THREE.Color('#1C162426'));
     const scene = new THREE.Scene();
 
     // light source
