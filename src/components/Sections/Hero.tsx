@@ -1,17 +1,24 @@
 import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
-import {FC, memo} from 'react';
+import {FC, memo, useLayoutEffect, useMemo} from 'react';
 
 import {heroData, SectionId} from '../../data/data';
+import {heroBg} from '../../utils/heroBg';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
   const {imageSrc, name, description, actions} = heroData;
 
+  useLayoutEffect(() => {
+    heroBg();
+  }, []);
+
+  const canvas = useMemo(() => <canvas id={SectionId.HeroBg} />, []);
+
   return (
-    <Section noPadding sectionId={SectionId.Hero}>
+    <Section canvas={canvas} noPadding sectionId={SectionId.Hero}>
       <div className="relative flex h-screen w-full items-center justify-center">
         <Image
           alt={`${name}-image`}
