@@ -441,19 +441,19 @@ export const recommendation: TestimonialSection = {
     {
       name: 'William Rose',
       text: 'Amer is a committed, hard working, and talented developer front-end engineer. He takes the time explain his methodology to those who are unfamiliar with his field and is receptive to feedback. He\'s a friendly person, a pleasure to work alongside, and more than pulls his weight as part of a team.',
-      image: 'https://media.licdn.com/dms/image/D4E03AQFO_FWd9LCDhA/profile-displayphoto-shrink_200_200/0/1675187477985?e=1692230400&v=beta&t=hH74orlbS4pJ6qRFwNiLXWo8QsqulBuOmUH7g84w0uY',
+      image: 'https://media.licdn.com/dms/image/D4E03AQFO_FWd9LCDhA/profile-displayphoto-shrink_800_800/0/1675187477985?e=1697673600&v=beta&t=zv_595wiOCS4Q76lso8hyKpfytb2XdFnbpUJQT88qLc',
       link: 'https://www.linkedin.com/in/williamrose944/'
     },
     {
       name: 'Matthew Bell',
       text: 'I worked alongside Amer on a recent app project. It was Amer\'s responsibility to develop my UI designs into a functional product, which he did to a very high standard. Amer is highly skilled, knowledgeable, and passionate about what he does. He\'s always willing to help and takes the time to listen, learn, and also share his knowledge with others. I enjoyed working with Amer and I\'m happy to recommend him to others.',
-      image: 'https://media.licdn.com/dms/image/C4D03AQGhzWwp9xHmPA/profile-displayphoto-shrink_200_200/0/1650304098163?e=1692230400&v=beta&t=0Odg_eAgD6zMb7d70Z4VgRo2N5td7rnt0X2p-K1aYfU',
+      image: 'https://media.licdn.com/dms/image/C4D03AQGhzWwp9xHmPA/profile-displayphoto-shrink_800_800/0/1650304098163?e=1697673600&v=beta&t=PGqm81eTe_fB0vDs1Fn5C7NYst6YqC7eM_80nohfEM8',
       link: 'https://www.linkedin.com/in/m-d-bell/'
     },
     {
       name: 'Can Ertaş',
       text: 'I have worked with many developers in my career. Amer was one of the best amongst them. His motto is “Everything is possible!” This explains a lot about his approach to the problems that we have faced. Amer was always a great asset to our team. Working with him in the same team was giving me the confidence that we can achieve the goals and do anything that the project needed. We weren’t only trying to solve the problems we have currently but what we possibly have in the future. I feel lucky to work with him and highly recommend him as a lead FE developer if you need one. ',
-      image: 'https://media.licdn.com/dms/image/C4D03AQETorQcLRmPbg/profile-displayphoto-shrink_200_200/0/1638732144900?e=1692230400&v=beta&t=fxNPOM0Rmtpz1PQY2aab-L8f3O2Hkd0bpoqLqTb5rYs',
+      image: 'https://media.licdn.com/dms/image/C4D03AQETorQcLRmPbg/profile-displayphoto-shrink_800_800/0/1638732144900?e=1697673600&v=beta&t=IxpTgjvAOBnf-CHHNbkTYVoxSd9tpsAnx1yOyok1Nzo',
       link: 'https://www.linkedin.com/in/ertascan/'
     },
     {
