@@ -14,6 +14,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
+import MediumIcon from '../components/Icon/MediumIcon';
 import heroImage from '../images/header-background.webp';
 /*import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -504,6 +505,11 @@ export const contact: ContactSection = {
       href: 'https://linkedin.com/in/amerllica',
     },
     {
+      type: ContactType.Medium,
+      text: '@amerllica',
+      href: 'https://medium.com/@amerllica',
+    },
+    {
       type: ContactType.Facebook,
       text: 'fb/amerllica',
       href: 'https://fb.com/amerllica',
@@ -523,7 +529,8 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/amerllica'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/6877799/amerllica'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/amerllica/'},
-  // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  {label: 'Medium', Icon: MediumIcon, href: 'https://medium.com/@amerllica/'},
+  // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/amerllica/'},
   {label: 'Facebook', Icon: FacebookIcon, href: 'https://fb.com/amerllica'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/amerllica'},
 ];

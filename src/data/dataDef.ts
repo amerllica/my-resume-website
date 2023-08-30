@@ -123,6 +123,7 @@ export const ContactType = {
   Location: 'Location',
   Github: 'Github',
   LinkedIn: 'LinkedIn',
+  Medium: 'Medium',
   Facebook: 'Facebook',
   Twitter: 'Twitter',
   Instagram: 'Instagram',
