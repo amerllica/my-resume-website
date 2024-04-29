@@ -479,11 +479,11 @@ export const contact: ContactSection = {
       text: 'amerllica@gmail.com',
       href: 'mailto:amerllica@gmail.com',
     },
-    {
+    /*{
       type: ContactType.Phone,
       text: '+447496052859',
       href: 'tel:+447496052859',
-    },
+    },*/
     /*{
       type: ContactType.Location,
       text: 'Victoria BC, Canada',
