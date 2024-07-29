@@ -99,6 +99,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
+  soFlair: 'https://stackoverflow.com/users/flair/6877799.png?theme=dark&latest',
   description: `My fields of interest include Frontend development, building projects from scratch, maintaining legacy projects, migrating the architecture from legacy to new ones, and UI/UX design.
       I'm so eager about new technologies and readily accept new challenges.
       I'd love to write blog posts and articles and answer Stack Overflow questions in my spare time—also a big fan of using TypeScript in Frontend projects.`,
